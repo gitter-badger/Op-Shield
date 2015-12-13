@@ -1,4 +1,4 @@
 # Op-Shield
-# ![Op Shield](http://i.imgur.com/dPwr1cT.jpg)
+# ![Op Shield]()
 
 #The Plugin Is Still In Devlopment 
