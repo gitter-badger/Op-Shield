@@ -37,6 +37,6 @@ if($player->isOp()){$event->setCancelled(\true);
 } 
 public function onDisable()
 {
-$this->getLogger()->info(MT::RED."Anti_OP_Kick Is Unloaded!");
+$this->getLogger()->info(Color::BOLD . Color::GOLD . "M" . Color::AQUA . "Op" . Color::GREEN . "-Protector " . Color::RED . "Disabled !");
    }
 }
