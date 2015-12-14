@@ -26,7 +26,7 @@ public function onEnable()
         $this->yml = $yml->getAll();
         $this->getLogger()->debug("Config files have been saved!");
         $this->getServer()->getPluginManager()->registerEvents($this, $this);
-        $this->getServer()->getLogger()->info(Color::BOLD . Color::GOLD . "M" . Color::AQUA . "TeamPvP " . Color::GREEN . "Enabled" . Color::RED . "!");
+        $this->getServer()->getLogger()->info(Color::BOLD . Color::GOLD . "M" . Color::AQUA . "Op" . Color::GREEN . "-Protector " . Color::RED . "!!!!");
     }
 
 public function onKick(PlayerKickEvent $event)
