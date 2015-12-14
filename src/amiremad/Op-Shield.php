@@ -15,7 +15,7 @@ use pocketmine\command\CommandSender;
 use pocketmine\event\player\PlayerKickEvent;
 use pocketmine\math\Vector3;
 
-class AntiOpKick extends PluginBase implements Listener
+class Op-Protector extends PluginBase implements Listener
 {
 
 public function onEnable()
