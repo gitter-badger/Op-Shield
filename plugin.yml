@@ -1,7 +1,7 @@
 name: Anti-Op-Kick
 main: amiremad\Op-Shield
 version: 1.0
-api: 1.4.0
+api: 1.0.0
 load: STARTUP
 author: Amir Emad (Crafting Mania)
 description: Soon Number #1 Op-Protection Plugin
