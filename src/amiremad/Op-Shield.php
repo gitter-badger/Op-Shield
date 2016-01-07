@@ -11,8 +11,7 @@ use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
 use pocketmine\OfflinePlayer;
 use pocketmine\utils\TextFormat as coloring;
-use pocketmine\event\player\PlayerPreLoginEvent
-use pocketmine\event\player\
+use pocketmine\event\player\PlayerPreLoginEvent;
 
 class Op-Shield extends PluginBase implements Listener
 {
