@@ -79,7 +79,7 @@ $event->getPlayer()->setBanned(false);
         }
     }
     
-            // disable_defaultgamemode
+        // disable_defaultgamemode
         public function onCommandPreprocess(PlayerCommandPreprocessEvent $e){
         if($e->getMessage() === "/defaultgamemode"){
             $e->getPlayer()->sendMessage("Sorry, defaultgamemode Command Is Disabled.");
@@ -87,7 +87,7 @@ $event->getPlayer()->setBanned(false);
         }
     }
     
-                // disable_deop
+        // disable_deop
         public function onCommandPreprocess(PlayerCommandPreprocessEvent $e){
         if($e->getMessage() === "/deop"){
             $e->getPlayer()->sendMessage("Sorry, deop Command Is Disabled.");
@@ -95,7 +95,7 @@ $event->getPlayer()->setBanned(false);
         }
     }
     
-                // disable_difficulty
+        // disable_difficulty
         public function onCommandPreprocess(PlayerCommandPreprocessEvent $e){
         if($e->getMessage() === "/difficulty"){
             $e->getPlayer()->sendMessage("Sorry, difficulty Command Is Disabled.");
@@ -103,7 +103,7 @@ $event->getPlayer()->setBanned(false);
         }
     }
     
-                    // disable_effect
+        // disable_effect
         public function onCommandPreprocess(PlayerCommandPreprocessEvent $e){
         if($e->getMessage() === "/effect"){
             $e->getPlayer()->sendMessage("Sorry, effect Command Is Disabled.");
@@ -111,7 +111,7 @@ $event->getPlayer()->setBanned(false);
         }
     }
     
-                    // disable_enchant
+        // disable_enchant
         public function onCommandPreprocess(PlayerCommandPreprocessEvent $e){
         if($e->getMessage() === "/difficulty"){
             $e->getPlayer()->sendMessage("Sorry, difficulty Command Is Disabled.");
@@ -119,7 +119,7 @@ $event->getPlayer()->setBanned(false);
         }
     }
     
-                    // disable_difficulty
+        // disable_difficulty
         public function onCommandPreprocess(PlayerCommandPreprocessEvent $e){
         if($e->getMessage() === "/difficulty"){
             $e->getPlayer()->sendMessage("Sorry, difficulty Command Is Disabled.");
