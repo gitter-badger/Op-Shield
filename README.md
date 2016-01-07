@@ -1,5 +1,8 @@
 
-#[Op-Shield] (https://pbs.twimg.com/profile_images/1596234144/op_logo.gif) [Op-Shield]
+![start2](http://www.opconcept.com/oplogo.jpg)
+# ServerAuth
+
+[![Join the chat at https://gitter.im/MCrafterss](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/MCrafterss?utm_source=share-link&utm_medium=link&utm_campaign=share-link)
 
 #The Plugin Is Still In Development 
 
