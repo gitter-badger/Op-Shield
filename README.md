@@ -1,5 +1,6 @@
+# Op-Shield
 
-# ![Op-Shield] (https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTP9_hx5EULAMUv6Dd47EH_ayWJzPCZVz4Ev8NiQCptVqEozP3y2tpm_A) [Op-Shield]
+[![Join the chat at https://gitter.im/MCrafterss](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/MCrafterss?utm_source=share-link&utm_medium=link&utm_campaign=share-link)
 
 #The Plugin Is Still In Development 
 

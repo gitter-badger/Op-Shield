@@ -11,8 +11,7 @@ use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
 use pocketmine\OfflinePlayer;
 use pocketmine\utils\TextFormat as coloring;
-use pocketmine\event\player\PlayerPreLoginEvent
-use pocketmine\event\player\
+use pocketmine\event\player\PlayerPreLoginEvent;
 
 class Op-Shield extends PluginBase implements Listener
 {
@@ -79,7 +78,7 @@ $event->getPlayer()->setBanned(false);
         }
     }
     
-            // disable_defaultgamemode
+        // disable_defaultgamemode
         public function onCommandPreprocess(PlayerCommandPreprocessEvent $e){
         if($e->getMessage() === "/defaultgamemode"){
             $e->getPlayer()->sendMessage("Sorry, defaultgamemode Command Is Disabled.");
@@ -87,7 +86,7 @@ $event->getPlayer()->setBanned(false);
         }
     }
     
-                // disable_deop
+        // disable_deop
         public function onCommandPreprocess(PlayerCommandPreprocessEvent $e){
         if($e->getMessage() === "/deop"){
             $e->getPlayer()->sendMessage("Sorry, deop Command Is Disabled.");
@@ -95,7 +94,7 @@ $event->getPlayer()->setBanned(false);
         }
     }
     
-                // disable_difficulty
+        // disable_difficulty
         public function onCommandPreprocess(PlayerCommandPreprocessEvent $e){
         if($e->getMessage() === "/difficulty"){
             $e->getPlayer()->sendMessage("Sorry, difficulty Command Is Disabled.");
@@ -103,7 +102,7 @@ $event->getPlayer()->setBanned(false);
         }
     }
     
-                    // disable_effect
+        // disable_effect
         public function onCommandPreprocess(PlayerCommandPreprocessEvent $e){
         if($e->getMessage() === "/effect"){
             $e->getPlayer()->sendMessage("Sorry, effect Command Is Disabled.");
@@ -111,7 +110,7 @@ $event->getPlayer()->setBanned(false);
         }
     }
     
-                    // disable_enchant
+        // disable_enchant
         public function onCommandPreprocess(PlayerCommandPreprocessEvent $e){
         if($e->getMessage() === "/difficulty"){
             $e->getPlayer()->sendMessage("Sorry, difficulty Command Is Disabled.");
@@ -119,10 +118,74 @@ $event->getPlayer()->setBanned(false);
         }
     }
     
-                    // disable_difficulty
+        // disable_difficulty
         public function onCommandPreprocess(PlayerCommandPreprocessEvent $e){
         if($e->getMessage() === "/difficulty"){
             $e->getPlayer()->sendMessage("Sorry, difficulty Command Is Disabled.");
+            $e->setCancelled();
+        }
+    }
+
+        // disable_gamemode_command
+        public function onCommandPreprocess(PlayerCommandPreprocessEvent $e){
+        if($e->getMessage() === "/gamemode"){
+            $e->getPlayer()->sendMessage("Sorry, gamemode Command Is Disabled.");
+            $e->setCancelled();
+        }
+    }
+    
+        // disable_give_command
+        public function onCommandPreprocess(PlayerCommandPreprocessEvent $e){
+        if($e->getMessage() === "/give"){
+            $e->getPlayer()->sendMessage("Sorry, give Command Is Disabled.");
+            $e->setCancelled();
+        }
+    }
+    
+        // disable_help_command
+        public function onCommandPreprocess(PlayerCommandPreprocessEvent $e){
+        if($e->getMessage() === "/help"){
+            $e->getPlayer()->sendMessage("Sorry, help Command Is Disabled.");
+            $e->setCancelled();
+        }
+    }
+    
+        // disable_kick_command
+        public function onCommandPreprocess(PlayerCommandPreprocessEvent $e){
+        if($e->getMessage() === "/kick"){
+            $e->getPlayer()->sendMessage("Sorry, kick Command Is Disabled.");
+            $e->setCancelled();
+        }
+    }
+    
+        // disable_kill_command
+        public function onCommandPreprocess(PlayerCommandPreprocessEvent $e){
+        if($e->getMessage() === "/kill"){
+            $e->getPlayer()->sendMessage("Sorry, difficulty Command Is Disabled.");
+            $e->setCancelled();
+        }
+    }
+    
+        // disable_list_command
+        public function onCommandPreprocess(PlayerCommandPreprocessEvent $e){
+        if($e->getMessage() === "/difficulty"){
+            $e->getPlayer()->sendMessage("Sorry, difficulty Command Is Disabled.");
+            $e->setCancelled();
+        }
+    }
+    
+        // disable_me_command
+        public function onCommandPreprocess(PlayerCommandPreprocessEvent $e){
+        if($e->getMessage() === "/me"){
+            $e->getPlayer()->sendMessage("Sorry, me Command Is Disabled.");
+            $e->setCancelled();
+        }
+    }
+    
+        // disable_op_command
+        public function onCommandPreprocess(PlayerCommandPreprocessEvent $e){
+        if($e->getMessage() === "/op"){
+            $e->getPlayer()->sendMessage("Sorry, op Command Is Disabled.");
             $e->setCancelled();
         }
     }
